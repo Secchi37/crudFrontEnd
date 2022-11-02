@@ -1,0 +1,12 @@
+<div *ngIf="stringaBooleano">
+    <label [ngStyle]="{'background-color':'red'}">booleano is true</label>
+</div>
+
+<p>products works!</p>
+
+
+<label for="item-input">aggiungi un elemento: </label>
+<input type="text" id="item-input" #name>
+<button (click)="dalFiglioaPadre(name.value)">aggiungi</button>
+
+
